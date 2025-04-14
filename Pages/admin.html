@@ -1,11 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin</title>
-</head>
-<body>
-    <h1>Admin Page</h1>
-</body>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <a href="./index.html"
+        ><img src="../Multimedia/new_cn_logo.svg" alt="cn_logo"
+      /></a>
+      <h1>Admin Dashboard</h1>
+    </header>
+    <hr />
+
+    <!-- TABLE -->
+    <section id="admin-table">
+      <h2>Enrollment List</h2>
+      <table border="1">
+        <caption>
+          List of User Enrollments
+        </caption>
+        <thead>
+          <tr>
+            <th rowspan="2">User ID</th>
+            <th rowspan="2">Full Name</th>
+            <th rowspan="2">Email</th>
+            <th colspan="2">Enrolled Courses</th>
+          </tr>
+          <tr>
+            <th>Course ID</th>
+            <th>Course Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3">1</td>
+            <td rowspan="3">John Doe</td>
+            <td rowspan="3">john.doe@wxample.com</td>
+            <td>101</td>
+            <td>Web Development</td>
+          </tr>
+          <tr>
+            <td>102</td>
+            <td>Data Science Basics</td>
+          </tr>
+          <tr>
+            <td>103</td>
+            <td>Digital Marketing Strategies</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>jane.smith@example.com</td>
+            <td>101</td>
+            <td>Web Development</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Bob Johnson</td>
+            <td>bob.johnson@example.com</td>
+            <td>104</td>
+            <td>Mobile App Development</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Bob Johnson</td>
+            <td>bob.johnson@example.com</td>
+            <td>104</td>
+            <td>Mobile App Development</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Bob Johnson</td>
+            <td>bob.johnson@example.com</td>
+            <td>104</td>
+            <td>Mobile App Development</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Bob Johnson</td>
+            <td>bob.johnson@example.com</td>
+            <td>104</td>
+            <td>Mobile App Development</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Bob Johnson</td>
+            <td>bob.johnson@example.com</td>
+            <td>104</td>
+            <td>Mobile App Development</td>
+          </tr>
+          <tfoot>
+          <tr>
+            <td colspan="5">
+                Total enrollments:7
+            </td>
+          </tr>
+        </tfoot>
+        </tbody>
+      </table>
+    </section>
+  </body>
 </html>
