@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- HEADER -->
     <header>
-        <a href="./index.html"
-          ><img src="../Multimedia/new_cn_logo.svg" alt="cn_logo"
-        /></a>
-        <h1>Login Here</h1>
-      </header>
+      <a href="./index.html"
+        ><img src="../Multimedia/new_cn_logo.svg" alt="cn_logo"
+      /></a>
+      <h1>Login Here</h1>
+    </header>
 
-      <!-- LOGIN FORM -->
-       <section id="login-form" action="#" method="post">
+    <!-- LOGIN FORM -->
+    <section id="login-form">
+      <form action="#" method="post">
         <fieldset>
-            <legend>Login Information</legend>
-            <br/>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username"/>
-            <br/>
-            <br/>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password"/>
-            <br><br>
-            <button type="submit">Submit</button>
+          <legend>Login Information</legend>
+          <br />
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required/>
+          <br />
+          <br />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required/>
+          <br /><br />
+          <button type="submit">Submit</button>
         </fieldset>
-       </section>
-</body>
+      </form>
+    </section>
+  </body>
 </html>
